@@ -17,7 +17,7 @@ public class ClassStart5 {
         System.out.println("student2 = " + student2);
 
         Student[] students = new Student[]{student1, student2};
-//        Student[] students = {student1, student2};
+//        Student[] students = {student1, student2}; //배열선언 방법 2가지
 
         for (int i = 0; i < students.length; i++) {
             System.out.println("이름 : " + students[i].name + " 나이 : " + students[i].age + " 성적 : " + students[i].grade);
